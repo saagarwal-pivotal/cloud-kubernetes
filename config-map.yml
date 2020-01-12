@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello
+data:
+  application.properties: |-
+    bean.message=Hello2222 World!
+    another.property=value

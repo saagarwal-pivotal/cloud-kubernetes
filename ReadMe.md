@@ -42,7 +42,7 @@ docker run -p 8080:8080 -t springio/gs-spring-boot-docker
 
 ```
 
-mvn com.google.cloud.tools:jib-maven-plugin:build -Dimage=satya108agarwal/hello
+mvn clean package com.google.cloud.tools:jib-maven-plugin:build -Dimage=satya108agarwal/hello
 
 
 ```
